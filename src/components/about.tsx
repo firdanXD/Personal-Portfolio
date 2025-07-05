@@ -34,28 +34,14 @@ export default function About() {
             <div className="text-lg mt-12 xl:mt-3">
               <div className="flex justify-start flex-col">
               
-              
-              
-
-              <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">Our Mission</h3>
-              </Fade>
-              <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
-                <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                We believe that a website is the foundation of a successful online presence, and our goal is to help businesses establish a strong digital presence. Our process begins with understanding your business goals.
-                </p>
-              </Fade>
-              <Fade direction="up" delay={800} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">Our Vision</h3>
-              </Fade>
-              <Fade direction="up" delay={1000} cascade damping={1e-1} triggerOnce={true}>
-                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                  We then use this information to create a custom website that not only reflects your brand but also helps you achieve your business objectives. From responsive design to intuitive navigation, we focus on every detail.
-                  </p>
-              </Fade>
+As an Informatics graduate focusing on career development in the fields of mobile
+development, web development, and data analysis, I have technical expertise in building
+Android applications using Kotlin, designing interactive websites with HTML, CSS, and JavaScript, and
+performing data analysis using Python and SQL. I am also well-versed in various mobile
+ frameworks, application testing and debugging techniques, and data visualization and interpretation methods.
+I am currently proactively pursuing various industry certifications to strengthen my competencies, and
+is ready to make a real contribution through efficient, innovative, and data-driven digital solutions.
                 
-
-
               </div>
             </div>
           </div>

@@ -25,15 +25,15 @@ export const links: Link[] = [
 
 export const projectsData: ProjectInfo[] = [
   {
-    title: "Snowlake Theme",
+    title: "WayGo Apps",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+      "WayGo is an app that helps travelers enjoy efficient vacations with attraction recommendations and automatic travel rundowns.",
+    tags: ["Kotlin", "Firebase",],
     imageUrl: "/image1.png",
     link: "https://www.google.com",
   },
   {
-    title: "Budget App",
+    title: "Sinar Abadi Properti",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
@@ -41,7 +41,7 @@ export const projectsData: ProjectInfo[] = [
     link: "https://www.google.com",
   },
   {
-    title: "Storage App",
+    title: "Story App",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
@@ -49,7 +49,7 @@ export const projectsData: ProjectInfo[] = [
     link: "https://www.google.com",
   },
   {
-    title: "Missio Theme",
+    title: "Medico",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],

@@ -34,12 +34,12 @@ export default function Intro() {
           >
             <Image
               src="/boy.png"
-              width="480"
-              height="480"
+              width="200"
+              height="200"
               alt="portrait"
               quality="100"
               priority={true}
-              className="rounded-full object-cover shadow-xl"
+              className="rounded-full object-cover shadow-xl border-[0.35rem] border-white"
             />
           </motion.div> 
 
@@ -59,14 +59,16 @@ export default function Intro() {
         </div>
       </div>
 
-      <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-      <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
-        <span className="font-medium !leading-[1.5] ">Grow your business with a new website.</span>{" "}
-        <p className="text-[14px]">
-        Resonance is a full-service creative studio creating beautiful digital experiences and products.
-        </p>
-      </h1>
-      </Fade>
+       <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Hello, I'm Mohammad Firdan.</span> I'm a Junior{" "}
+        <span className="font-bold">Web Developer</span> And{" "}
+        <span className="font-bold">Mobile developer</span> I enjoy
+        building <span className="italic">sites & apps.</span>
+      </motion.h1>
 
       
 
@@ -91,7 +93,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/mohamed-rhanmi/"
+          href="https://www.linkedin.com/in/mohammadfirdan/"
           target="_blank"
         >
           <BsLinkedin />
@@ -99,7 +101,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href=""
+          href="https://github.com/firdanXD"
           target="_blank"
         >
           <FaGithubSquare />
