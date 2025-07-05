@@ -3,9 +3,9 @@ import { Resend } from "resend";
 import * as React from "react";
 import { NextRequest, NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
+  const resend = new Resend(process.env.RESEND_API_KEY); // ✅ Di dalam handler
+
   const { senderEmail, message } = await request.json();
 
   try {
