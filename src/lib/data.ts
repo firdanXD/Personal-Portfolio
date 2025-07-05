@@ -10,9 +10,9 @@ export const links: Link[] = [
     hash: "#about",
   },
   {
-     nameEng: "Projects",
-     hash: "#projects",
-   },
+    nameEng: "Projects",
+    hash: "#projects",
+  },
   {
     nameEng: "Skills",
     hash: "#skills",
@@ -28,7 +28,7 @@ export const projectsData: ProjectInfo[] = [
     title: "WayGo Apps",
     description:
       "WayGo is an app that helps travelers enjoy efficient vacations with attraction recommendations and automatic travel rundowns.",
-    tags: ["Kotlin", "Firebase",],
+    tags: ["Kotlin", "Firebase"],
     imageUrl: "/image1.png",
     link: "https://www.google.com",
   },
@@ -38,7 +38,7 @@ export const projectsData: ProjectInfo[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
     imageUrl: "/image2.png",
-    link: "https://www.google.com",
+    link: "sinar-abadi-property.vercel.app",
   },
   {
     title: "Story App",
@@ -61,6 +61,8 @@ export const projectsData: ProjectInfo[] = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "PHP",
+  "Laravel",
   "JavaScript",
   "TypeScript",
   "React",
@@ -68,9 +70,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux Toolkit",
-  "Express",
   "Framer Motion",
+  "Kotlin",
+  "Jetpack Compose",
+  "Python",
 ];

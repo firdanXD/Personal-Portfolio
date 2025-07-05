@@ -34,8 +34,8 @@ export default function Intro() {
           >
             <Image
               src="/boy.png"
-              width="200"
-              height="200"
+              width="160"
+              height="160"
               alt="portrait"
               quality="100"
               priority={true}
@@ -54,7 +54,6 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            👋
           </motion.span>
         </div>
       </div>

@@ -1,4 +1,4 @@
-// File: C:\Users\NITRO 5\OneDrive\Desktop\Documents\portfolio new\Next-js-14-Personal-Portfolio-Website-Using-Framer-Motion\src\app\page.tsx
+// File: C:\Users\NITRO 5\OneDrive\Desktop\Documents\portfolio new\portfolio-firdan\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
