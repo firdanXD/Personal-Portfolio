@@ -8,7 +8,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/useInView";
 import { useActiveSectionContext } from "@/containers/active-section";
-import { Mail } from "lucide-react";
+import { Download } from "lucide-react";
 
 export default function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
@@ -79,16 +79,13 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link
-          href="#contact"
+        <a
+          href="/CV - Mohammad Firdan.pdf"
+          download
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("#contact");
-            setTimeOfLastClick(Date.now());
-          }}
         >
-          Connect <Mail color={"#9ca3af"} />
-        </Link>
+          Download CV <Download color={"#9ca3af"} />
+        </a>
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"

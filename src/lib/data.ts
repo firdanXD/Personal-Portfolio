@@ -43,7 +43,7 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "Story App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Story App is an innovative platform for writers, readers, and story lovers, offering an immersive way to explore fiction and non-fiction, unleash creativity, discover inspiring works, and connect with a like-minded community.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
     imageUrl: "/image3.png",
     link: "https://www.google.com",
@@ -51,7 +51,7 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "Medico",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Medico is a web app that streamlines EMR management with easy access, centralized storage, and secure patient data.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
     imageUrl: "/image4.png",
     link: "https://www.google.com",
