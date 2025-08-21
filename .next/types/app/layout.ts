@@ -1,4 +1,4 @@
-// File: C:\Users\NITRO 5\OneDrive\Desktop\Documents\portfolio new\portfolio-firdan\src\app\layout.tsx
+// File: C:\Users\NITRO 5\OneDrive\Desktop\Documents\portfolio new\Personal-Portfolio\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

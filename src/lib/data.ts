@@ -43,8 +43,8 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "Story App",
     description:
-      "Story App is an innovative platform for writers, readers, and story lovers, offering an immersive way to explore fiction and non-fiction, unleash creativity, discover inspiring works, and connect with a like-minded community.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+      "Story App is an innovative platform for writers and readers to discover stories, create, and connect with a community of story lovers",
+    tags: ["Kotlin"],
     imageUrl: "/image3.png",
     link: "https://www.google.com",
   },
@@ -52,9 +52,33 @@ export const projectsData: ProjectInfo[] = [
     title: "Medico",
     description:
       "Medico is a web app that streamlines EMR management with easy access, centralized storage, and secure patient data.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+    tags: ["PHP", "MySQL", "Tailwind"],
     imageUrl: "/image4.png",
     link: "https://www.google.com",
+  },
+  {
+    title: "ShoeShop",
+    description:
+      "ShoeShop is an e-commerce platform providing the latest and best shoes from well-known brands. Find running shoes, sportswear, and the best styles.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+    imageUrl: "/shoeshop.png",
+    link: "sinar-abadi-property.vercel.app",
+  },
+  {
+    title: "Pekalongan Tourism",
+    description:
+      "Pekalongan Tourism is your guide to discovering the hidden charms and popular destinations of Pekalongan.",
+    tags: ["React", "TypeScript", "Vue", "Tailwind", "Laravel"],
+    imageUrl: "/pkl_trsm.png",
+    link: "sinar-abadi-property.vercel.app",
+  },
+  {
+    title: "MAsset",
+    description:
+      "MAsset is an asset management application designed to help users track and manage assets by adding, editing, or deleting data.",
+    tags: ["React", "Laravel", "Tailwind"],
+    imageUrl: "/masset.png",
+    link: "sinar-abadi-property.vercel.app",
   },
 ];
 
